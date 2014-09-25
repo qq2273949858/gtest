@@ -3,3 +3,4 @@ compiler: gcc
 script:
   - ./configure
   - make
+  - wget http://mirrors.cnnic.cn/apache/hadoop/common/hadoop-2.5.0/hadoop-2.5.0.tar.gz
